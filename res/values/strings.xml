@@ -645,9 +645,9 @@
     <string name="email_feedback_uri" translatable="false"></string>
 
     <string name="account_manager_type_exchange" translatable="false">com.android.exchange</string>
-    <string name="account_manager_type_pop3" translatable="false">com.android.email</string>
-    <string name="account_manager_type_imap" translatable="false">com.android.email</string>
-    <string name="account_manager_type_legacy_imap" translatable="false">com.android.email</string>
+    <string name="account_manager_type_pop3" translatable="false">com.android.email.pop3</string>
+    <string name="account_manager_type_imap" translatable="false">com.android.email.imap</string>
+    <string name="account_manager_type_legacy_imap" translatable="false">com.android.email.legacy.imap</string>
     <string name="intent_exchange_action" translatable="false">com.android.email.EXCHANGE_INTENT</string>
     <string name="intent_exchange_cert_action" translatable="false">com.android.email.EXCHANGE_REQUEST_CERT</string>
     <string name="intent_exchange_package" translatable="false">com.android.exchange</string>
@@ -682,4 +682,69 @@
 
     <!-- Name for preference entry which leads to the per-folder sync settings activity -->
     <string name="folder_sync_settings_pref_title">Folder sync settings</string>
+
+    <!-- In Account setup options & Account Settings screens, Email sync size option. -->
+    <string name="account_settings_sync_size_enable">Configure sync size per mail</string>
+    <string name="account_settings_sync_size_enable_summary">To save the data, you could configure the sync size per mail of the account</string>
+    <string name="account_settings_sync_size_label">Choose sync size</string>
+    <string name="account_settings_sync_size_category_label">Sync size settings</string>
+
+    <string name="account_setup_options_mail_sync_size_all">Entire</string>
+    <string name="account_setup_options_mail_sync_size_20k">20KB</string>
+    <string name="account_setup_options_mail_sync_size_100k">100KB</string>
+    <string name="account_setup_options_mail_sync_size_200k">200KB</string>
+    <string name="account_setup_options_mail_sync_size_500k">500KB</string>
+    <string name="account_setup_options_mail_sync_size_1M">1MB</string>
+
+    <!--Delete email account -->
+    <string name="remove_email_account">Remove account</string>
+    <string name="remove_email_account_continue">CONTINUE</string>
+    <string name="remove_email_account_message">You are about to go to the Settings app, where you can remove Accounts</string>
+    <string name="default_domain"></string>
+    <!-- Customize Email account's signature -->
+    <string name="default_email_signature"></string>
+    <string name="default_email_signature_with_brand"></string>
+    <string name="missing_required_permission">You have disabled a required permission.</string>
+    <string name="account_manager_type_default_first" translatable="false">com.android.email.default.first</string>
+    <string name="default_first_eas_name" translatable="false">Default First</string>
+    <string name="account_manager_type_default_second" translatable="false">com.android.email.default.second</string>
+    <string name="default_second_eas_name" translatable="false">Default Second</string>
+    <string name="account_manager_type_default_third" translatable="false">com.android.email.default.third</string>
+    <string name="default_third_eas_name" translatable="false">Default Third</string>
+    <string name="account_manager_type_default_fourth" translatable="false">com.android.email.default.fourth</string>
+    <string name="default_fourth_eas_name" translatable="false">Default Fourth</string>
+    <string name="account_manager_type_default_fifth" translatable="false">com.android.email.default.fifth</string>
+    <string name="default_fifth_eas_name" translatable="false">Default Fifth</string>
+    <string name="account_manager_type_default_sixth" translatable="false">com.android.email.default.sixth</string>
+    <string name="default_sixth_eas_name" translatable="false">Default Sixth</string>
+    <string name="account_manager_type_default_seventh" translatable="false">com.android.email.default.seventh</string>
+    <string name="default_seventh_eas_name" translatable="false">Default Seventh</string>
+    <string name="account_manager_type_default_eighth" translatable="false">com.android.email.default.eighth</string>
+    <string name="default_eighth_eas_name" translatable="false">Default Eighth</string>
+    <string name="account_manager_type_default_ninth" translatable="false">com.android.email.default.ninth</string>
+    <string name="default_ninth_eas_name" translatable="false">Default Ninth</string>
+    <string name="account_manager_type_default_tenth" translatable="false">com.android.email.default.tenth</string>
+    <string name="default_tenth_eas_name" translatable="false">Default Tenth</string>
+    <string name="account_manager_type_default_eleventh" translatable="false">com.android.email.default.eleventh</string>
+    <string name="default_eleventh_eas_name" translatable="false">Default Eleventh</string>
+    <string name="account_manager_type_default_twelfth" translatable="false">com.android.email.default.twelfth</string>
+    <string name="default_twelfth_eas_name" translatable="false">Default Twelfth</string>
+    <string name="account_manager_type_default_thirteenth" translatable="false">com.android.email.default.thirteenth</string>
+    <string name="default_thirteenth_eas_name" translatable="false">Default Thirteenth</string>
+    <string name="account_manager_type_default_fourteenth" translatable="false">com.android.email.default.fourteenth</string>
+    <string name="default_fourteenth_eas_name" translatable="false">Default Fourteenth</string>
+    <string name="account_manager_type_default_fifteenth" translatable="false">com.android.email.default.fifteenth</string>
+    <string name="default_fifteenth_eas_name" translatable="false">Default Fifteenth</string>
+    <string name="account_manager_type_default_sixteenth" translatable="false">com.android.email.default.fifteenth</string>
+    <string name="default_sixteenth_eas_name" translatable="false">Default Sixteenth</string>
+    <string name="account_manager_type_default_seventeenth" translatable="false">com.android.email.default.seventeenth</string>
+    <string name="default_seventeenth_eas_name" translatable="false">Default Seventeenth</string>
+    <string name="account_manager_type_default_eighteenth" translatable="false">com.android.email.default.eighteenth</string>
+    <string name="default_eighteenth_eas_name" translatable="false">Default Eighteenth</string>
+    <string name="account_manager_type_default_ninteenth" translatable="false">com.android.email.default.ninteenth</string>
+    <string name="default_ninteenth_eas_name" translatable="false">Default Ninteenth</string>
+    <string name="account_manager_type_default_twentith" translatable="false">com.android.email.default.twentith</string>
+    <string name="default_twentith_eas_name" translatable="false">Default Twentith</string>
+    <!-- string to show Email signature with brand -->
+    <string name="default_email_signature_with_brand"></string>
 </resources>
